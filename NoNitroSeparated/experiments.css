@@ -1,0 +1,14 @@
+/* .side-1lrxIh[aria-label="User Settings"] > div:nth-child(n+47):nth-child(-n+47), /* Removes Payment Flow from experiments */ /* Breaks non experiments pane uncomment this part if you want it gone */ 
+
+/* Removing some new ads that appeared recently thru A/B testing. */
+[class^="upsellImage-"],
+[class^="perkRow-"],
+[class^="tier0Container-"],
+[class^="premiumFeatureBorder-"],
+[class^="tryItOutSection-"],
+[class^="contentPremium-"],
+.showBorder-2hbqaq.customizationSection-IGy2fS,
+.tryItOutSection-W9qeGH.featureBorder-2Jl8g4.premiumFeatureBorder-1i95si
+{
+	display: none !important
+}

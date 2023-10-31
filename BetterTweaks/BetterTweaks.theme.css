@@ -1,0 +1,44 @@
+/**
+ * @name Better Tweaks
+ * @description Some tweaks that i found useful. I guess.
+ * @author ImSwordQueen and co.
+ * @version 0.0.3
+ * @source https://imswordqueen.github.io/DiscordStuff/BetterTweaks
+ * @updateUrl https://imswordqueen.github.io/DiscordStuff/BetterTweaks/BetterTweaks.theme.css
+ */
+
+/* NoNitroThanks - ImSwordQueen */
+@import url(https://imswordqueen.github.io/DiscordStuff/NoNitroThanksBeta/main.css);
+
+/* Debloataetor - ImSwordQueen */
+@import url(https://imswordqueen.github.io/DiscordStuff/Debloataetor/main.css);
+
+/* Invites Redesign - Disease */
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+
+/* Better Inbox - Disease */
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
+
+/* Better Crashes - Disease */
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
+
+/* Normalized Forums - Disease */
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/NormalizedForums.css);
+
+/* Account Details Columns - Deceiving */
+@import url(https://dablulite.github.io/accountdetailscolumns/import.css);
+
+/* Old Discord Font - Overimagine */
+@import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
+
+/* Better Sessions - Martinz64 */
+@import url('https://martinz64.github.io/remove-nitro/better_sessions.css');
+
+/* Black Box user tags - Monstrousdev */
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
+/* Old Windows titlebar - Gibbu */
+/* @import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css"); /*
+
+/* Settings As Overlay - Saltsaumure */
+/* @import url("https://saltssaumure.github.io/misc-discord-themes/snippets/SettingsAsOverlay.css"); */

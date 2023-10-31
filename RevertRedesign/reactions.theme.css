@@ -1,0 +1,55 @@
+/**
+  * @name Revert Rebrand (Reactions)
+  * @author GooseNest
+  * @donate https://github.com/sponsors/CanadaHonk
+  * @description Reverts Discord's 2021 rebrand (font, colors, reactions, mentions, loading screen, home icon, reply ping color, and more)
+  * @invite neMncS2
+  * @source https://Goose-Nest.github.io/GT-RevertRebrand/src/RevertRebrand.theme.css
+  * @website https://github.com/Goose-Nest/GT-RevertRebrand
+  * @version 5.2
+*/
+
+/* Revert reactions */
+.reaction_b90ab0 {
+  border-radius: .25rem;
+  background: var(--background-modifier-selected);
+
+  border: none;
+}
+
+.mentioned__58017 .reaction_b90ab0,
+.mentioned__58017 .reaction_b90ab0:hover {
+    background-color:var(--background-modifier-accent);
+}
+
+.reaction_b90ab0 .reactionCount__60448 {
+  color: var(--text-muted); /* A11Y-- */
+}
+
+.reaction_b90ab0 .reactionInner__00d5f {
+  padding: 0 .375rem;
+}
+
+/* Self reactions */
+.reaction_b90ab0.reactionMe_bf6909 .reactionCount__60448 {
+  color: var(--brand-experiment); /* A11Y-- */
+}
+
+.mentioned__58017 .reaction_b90ab0.reactionMe_bf6909,
+.mentioned__58017 .reactionMe_bf6909.reaction_b90ab0:hover,
+.reaction_b90ab0.reactionMe_bf6909 {
+  background-color: var(--brand-experiment-30a);
+}
+
+/* Reaction hover */
+.reaction_b90ab0:hover .reactionCount__60448 {
+  color: var(--interactive-active) !important;
+}
+
+.reaction_b90ab0:hover {
+  background-color: var(--background-modifier-selected);
+}
+
+.reaction_b90ab0.reactionMe_bf6909:hover {
+  background-color: var(--brand-experiment-40a);
+}

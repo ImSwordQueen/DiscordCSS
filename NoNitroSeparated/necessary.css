@@ -1,0 +1,135 @@
+/* Credits: Nyria#3863, Martinz64, BetterDiscord community and the Replugged Community.*/
+
+/* Remove Bloat (https://github.com/Martinz64/remove-nitro) */
+
+[class^="channel-"] > div > [href="/store"], /* Nitro Button above DM List */
+[class^="upsellVisible-"], /* Banner Nitro Upsell Header in the user modal */
+[class^="premiumIconWrapper"], /* Nitro Icon in top right on Banners */
+[class^="characterCount-"] [class*="upsell-"], /* "Send longer Messages with Discord Nitro!" */
+[class^="emojiSection-"] [class*="shinyButton-"], /* "Get Nitro" button in Emoji/Sticker modal" */
+[class*="tryItOutSection-"], /*try nitro banner section on profile editor*/
+[class^="customizationSection-"] + [class^="upsellContainer-"], /* Per server profile customizations*/
+[class^="customizationSection-"][class*="disabled-"], /* Per server profile customizations*/
+[class*="bannerNitroUpsell-"], /* "Unlock Banner" in profile editor*/
+[class^="imageUploaderHint-"], /* Remove gif option from profile pic upload option*/
+[class^="imagePickerContainer-"] > [class^="optionBox-"]:nth-child(2), /* Remove gif option from profile pic upload option*/
+
+/*Extra stuff (https://github.com/Martinz64/remove-nitro) */
+
+/*Settings*/
+[class^="premiumTab-"], /*remove nitro tab*/
+[class^="premiumTab-"] + [class^="item-"], /*Server boost tab*/
+[class^="premiumTab-"] + [class^="item-"] + [class^="item-"], /*server boost tab*/
+
+/* question mark when trying to change tag in user settings */
+[class^="questionMark-"],
+
+/* remove misc nitro advertisements from the UI */
+
+#account-style-your-profile,
+[class^="premiumIcon-"],
+[class^="premiumIconWrapper-"],
+[class^="upsellOverlay-"],
+[class^="upsellOverlayContainer-"],
+[class^="bannerNitroUpsell-"],
+.container-2giAcK,
+.paymentModalContent,
+.gifIconContainer-3os21a,
+.gif-38WdXH,
+
+/* Remove Send Gift button in the message box */
+
+.button-ejjZWC[aria-label="Send a gift"],
+
+/* Remove "Nitro" section in home */
+
+.channel-1Shao0 [href="/store"],
+
+/* Animated Banner advertisement */
+[class^="upsellVisible-2-"],
+[class^="upsellHidden-2-"], 
+[class^="upsell-"],
+[class^="bannerHidden-"], 
+[class^="bannerVisible-"],
+
+/* Nitro popup in banners */
+
+[class^="premiumIconWrapper-"],
+[class^="premiumIcon-"],
+
+/* remove stuff in server settings related to nitro */
+.emptyState-Ud44C9 .colorHeaderSecondary-g5teka, 
+.emptyState-Ud44C9 .stickersRow-3OJE_7,
+.container-1eD8xH,
+.emptyState-Ud44C9 .colorHeaderSecondary-g5teka, 
+.emptyState-Ud44C9 .stickersRow-3OJE_7,
+[class*="shinyButton-"],
+[class*="ShinyButton-"],
+[class^="premiumPromoDescription-"],
+.divider--oiTeJ+div+div+div,
+.children-1xdcWE .upsellContainer-22N_CL,
+.emptyTierWrapper-V5c-R7 .button-f2h6uQ,
+
+/* Stream Page ads */
+
+[class^="upsellBanner-"],
+[Aria-label="Unlock with Discord Nitro"],
+[class^="selectorButtonPremiumRequired-"],
+
+/* Profile Customizazion */
+
+[class^="improvedUpsellSection-"],
+[class^="improvedUpsellContainer-"],
+.profileThemeSectionPremiumBorder-pH_ioT.customizationSection-IGy2fS,
+
+/* Removing stuff from settings */
+
+.side-1lrxIh[aria-label="User Settings"] > div:nth-child(n+9):nth-child(-n+13), /* Removes Nitro, Subscriptions, Nitro Boost pages */
+[id="user-settings-cog-Discord_Nitro"],
+[id="user-settings-cog-Nitro_Server_Boost"],
+[id="user-settings-cog-Subscriptions"],
+[id="user-settings-cog-Payment_Flow_Modals"],
+
+/* Hide nitro icon on banners */
+[class^="bannerPremium-"],
+[class^="premiumIconWrapper-"],
+
+/* Removing Nitro ads from activities */
+
+[class^="tierCtaContainer-"],
+[class^="perksHeader-"],
+[class^="upsellIcon-"],
+[class^="perks-"]
+
+{
+	display: none !important;
+}
+
+/* Removes nitro promotion when you press on disabled emojis */
+.premiumPromo-1eKAIB .premiumPromoTitle-3tWrPT{
+    font-size: 0;
+}
+.premiumPromo-1eKAIB .premiumPromoTitle-3tWrPT:before{
+    content:"Hello, This isn't available for free. Sorry.";
+    font-size: 20px;
+    text-align: center;
+    display:block;
+}
+
+
+/* Removes nitro promotion on custom stickers */
+.emptyState-Ud44C9 .header-24Iqpn {
+    font-size: 0px;
+}
+.emptyState-Ud44C9 .header-24Iqpn:before {
+    content:"Hello, This isn't available for free. Sorry.";
+    font-size: 24px;
+    text-align: center;
+    display:block;
+}
+
+[class^="upsellDescription-"] {
+    font-size: 0px;
+    display:none;
+}
+
