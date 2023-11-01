@@ -10,12 +10,7 @@
 [class*=burstEmojiSection] + div,
 [class*=reactionSelected][style*="background:"],
 [aria-label*="Super Reaction"]{
-    display: none;
-}
-
-/* Remove profile effects (jevil7452) */
-[class*=profileEffects_]{
-    display: none !important
+    display: none !important;
 }
 
 /* Remove profile themes (https://github.com/Martinz64/remove-nitro) */
@@ -36,7 +31,7 @@
 
 /* Remove Bloat (https://github.com/Martinz64/remove-nitro) */
 
-[class^="channel"]  >  div  >  [href="/store"], /* Nitro Button above DM List */
+[class^="channel"] > div  > [href="/store"], /* Nitro Button above DM List */
 [class^="upsellVisible"], /* Banner Nitro Upsell Header in the user modal */
 [class^="premiumIconWrapper"], /* Nitro Icon in top right on Banners */
 [class^="characterCount"] [class*="upsell"], /* "Send longer Messages with Discord Nitro!" */
@@ -46,7 +41,7 @@
 [class^="customizationSection"][class*="disabled"], /* Per server profile customizations*/
 [class*="bannerNitroUpsell"], /* "Unlock Banner" in profile editor*/
 [class^="imageUploaderHint"], /* Remove gif option from profile pic upload option*/
-[class^="imagePickerContainer"]  >  [class^="optionBox"]:nth-child(2) /* Remove gif option from profile pic upload option*/
+[class^="imagePickerContainer"] > [class^="optionBox"]:nth-child(2) /* Remove gif option from profile pic upload option*/ 
 {
     display: none !important;
 }
@@ -70,27 +65,24 @@
 
 /* flower icon next to server name */
 [class^="flowerStar"],
-[class^="flowerStarContainer"] 
-{
+[class^="flowerStarContainer"] {
 	display: none !important;
 }
-
 
 /* Remove shop */ 
 [class*="premiumFeatureBannerBackground"],
 [class*="premiumFeature"],
-
-[class^="channel"]  >  div  >  [href="/shop"]{
+[class^="channel"] div [href="/shop"] {
     display: none !important
 }
 
 /* remove stuff in server settings related to nitro */
-[class^="emptyState"] > [class^="colorHeaderSecondary"],
-[class^="emptyState"] > [class^="stickersRow"],
+[class^="emptyState"][class^="colorHeaderSecondary"],
+[class^="emptyState"][class^="stickersRow"],
 [class*="shinyButton"],
 [class^="premiumPromoDescription-"],
-[class^="children"] > [class^="upsellContainer"],
-[class^="emptyTierWrapper"]  >  [class^="button"],
+[class^="children"][class^="upsellContainer"],
+[class^="emptyTierWrapper"][class^="button"],
 
 /* server banners */
 [class^="animatedBannerHoverLayer"],
@@ -136,7 +128,7 @@
 [class^="privateChannels"] [href="/store"] + svg,
 [class^="item"] [class*="Promo"],
 [class^="premiumLabel"] svg,
-[class^="premiumLabel"] [class^="badgeIconSettingsMenu"] {
+[class^="premiumLabel"][class^="badgeIconSettingsMenu"] {
     display: none !important;
 }
 
@@ -146,7 +138,7 @@
 
 /* Server boost from server menu */
 
-[class^="colorDefault"] [class^="colorPremium"] [class^="labelContainer"] [class^="item"],
+[class^="colorDefault"][class^="colorPremium"][class^="labelContainer"][class^="item"],
 [class^="boostingMenuItemHighlight"] {
 	display: none !important;
 }
@@ -159,22 +151,19 @@
 [class^="upsellOverlay"],
 [class^="upsellOverlayContainer"],
 [class^="bannerNitroUpsell"],
-[class^="paymentModalContent"]
-{
+[class^="paymentModalContent"] {
 	display: none !important;
 }
 
 /* Remove Send Gift button in the message box */
 
-[class^="button"] [aria-label="Send a gift"]
-{
+[class^="button"] [aria-label="Send a gift"] {
 	display: none !important;
 }
 
 /* Remove "Nitro" section in home */
 
-[class^="channel"] [href="/store"]
-{
+[class^="channel"] [href="/store"] {
 	display: none !important;
 }
 
@@ -183,8 +172,7 @@
 [class^="header"]:nth-of-type(9),
 [class^="background"]
 [class^="codeRedemptionRedirect"],
-[class^="emptyStateSubtext"]
-{
+[class^="emptyStateSubtext"] {
 	display: none !important;
 }
 
@@ -192,8 +180,7 @@
 
 [class^="improvedUpsellSection"],
 [class^="improvedUpsellContainer"],
-[class^="profileThemeSectionPremiumBorder"] > [class^="customizationSection"]
-{
+[class^="profileThemeSectionPremiumBorder"][class^="customizationSection"] {
 	display: none !important;
 }
 
@@ -202,40 +189,35 @@
 [class^="upsellHidden-2"], 
 [class^="upsell"],
 [class^="bannerHidden"], 
-[class^="bannerVisible"] 
-{
+[class^="bannerVisible"] {
     display: none !important;
 }
 
 /* Nitro popup in banners */
 
 [class^="premiumIconWrapper"],
-[class^="premiumIcon"] 
-{
+[class^="premiumIcon"] {
     display: none !important;
 }
 
 /* Stream Page ads */
 
-[class^="upsellBanner"]
-{
+[class^="upsellBanner"] {
 	display: none !important;
 }
 
 [Aria-label="Unlock with Discord Nitro"],
-[class^="selectorButtonPremiumRequired"]
-{
+[class^="selectorButtonPremiumRequired"] {
 	display: none !important;
 }
 
 /* Removing stuff from settings */
 
-[class*="side"][aria-label="User Settings"]  >  div:nth-child(n+10):nth-child(-n+13), /* Removes Nitro, Subscriptions, Nitro Boost pages */
+[class*="side"][aria-label="User Settings"] > div:nth-child(n+10):nth-child(-n+13), /* Removes Nitro, Subscriptions, Nitro Boost pages */
 [id="user-settings-cog-Discord-Nitro"],
 [id="user-settings-cog-Nitro_Server_Boost"],
 [id="user-settings-cog-Subscriptions"],
-[id="user-settings-cog-Payment-Flow-Modals"]
-{
+[id="user-settings-cog-Payment-Flow-Modals"] {
 	display: none !important;
 }
 
@@ -244,39 +226,35 @@
 [class^="tierCtaContainer"],
 [class^="perksHeader"],
 [class^="upsellIcon"],
-[class^="perks"]
-{
+[class^="perks"] {
 	display: none !important;
 }
 
 /* Removing some parts of ads in already removed pages to future proof this theme in case something changes.*/
 
 [class^="guildSubscriptionHeading"],
-[class^="guildsBlurb"] > [class^="text"] > [class^="defaultColor"]
-{
+[class^="guildsBlurb"][class^="text"][class^="defaultColor"] {
 	display: none !important;
 }
 
 /* Removing fake themes section (It won't remove the themes section if you use fakenitro) */
 
 [class^="premiumFeatureBorder"],
-[class^="premiumFeatureBorder"] > [class^="featureBorder"] > [class^="featureBorder"]
-{
+[class^="premiumFeatureBorder"][class^="featureBorder"][class^="featureBorder"] {
 	display: none !important;
 }
 
 /* Removing stuff from the new boost page wohoo */
 
-[class*="content"] > [class*="lowerBodyContentWrapper"],
-[class*="content"] > [class*="middleBodyContentWrapper"],
-[class*="colorWhite"] > [class*="lookOutlined"] > [class*="button"] > [class*="guildBoostCtaSecondary"] > [class*="guildBoostCta"],
+[class*="content"][class*="lowerBodyContentWrapper"],
+[class*="content"][class*="middleBodyContentWrapper"],
+[class*="colorWhite"][class*="lookOutlined"][class*="button"][class*="guildBoostCtaSecondary"][class*="guildBoostCta"],
 [class*="guildBoostCta"],
 [class*="progressBarMarkerLocked"],
 [class^="tierCard"],
 [class^="topPerksCard"],
 [class^="guildBoostCtaSecondary"],
-[class^="guildBoostCtaSecondary"]
-{
+[class^="guildBoostCtaSecondary"] {
     display: none !important;
 }
 
@@ -303,7 +281,7 @@ svg[class*="avatarDecorationHint"] {
     width: 80px !important;
 }
 
-[class^="userPopoutInner"] [class^="wrapper"] [class^="banner"],
+[class^="userPopoutInner"][class^="wrapper"][class^="banner"],
 [class^="avatarDecoration"],
 [mask^="url(#svg-mask-avatar-decoration-status"],
 [class*="bannerSVGWrapper"] mask image {
@@ -314,6 +292,16 @@ svg[class*="avatarDecorationHint"] {
     font-size: 12px !important;
 }
 
+/* Remove profile effects (jevil7452) */
+[class*=profileEffects] {
+    display: none !important
+}
+
+/* Profile Avatar Decorations Advertisement */
+[class*="animation"][class*="containerWrapper"] {
+	display: none !important;
+}
+
 /* Removing some new ads that appeared recently thru A/B testing. */
 [class^="upsellImage"],
 [class^="perkRow"],
@@ -321,10 +309,9 @@ svg[class*="avatarDecorationHint"] {
 [class^="premiumFeatureBorder"],
 [class^="tryItOutSection"],
 [class^="contentPremium"],
-[class^="showBorder"] > [class^="customizationSection"],
-[class^="tryItOutSection-W9qeGH"] > [class^="featureBorder"] > [class^="premiumFeatureBorder"]
-{
+[class^="showBorder"][class^="customizationSection"],
+[class^="tryItOutSection-W9qeGH"][class^="featureBorder"][class^="premiumFeatureBorder"] {
 	display: none !important;
 }
 
-/* --- >  fuck you discord <--- */
+/* ---> Fuck you discord <--- */
