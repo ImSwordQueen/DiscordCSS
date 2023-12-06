@@ -80,7 +80,7 @@
 [class^="emptyState"][class^="colorHeaderSecondary"],
 [class^="emptyState"][class^="stickersRow"],
 [class*="shinyButton"],
-[class^="premiumPromoDescription-"],
+[class^="premiumPromoDescription"],
 [class^="children"][class^="upsellContainer"],
 [class^="emptyTierWrapper"][class^="button"],
 
@@ -214,10 +214,11 @@
 /* Removing stuff from settings */
 
 [class*="side"][aria-label="User Settings"] > div:nth-child(n+10):nth-child(-n+13), /* Removes Nitro, Subscriptions, Nitro Boost pages */
-[id="user-settings-cog-Discord-Nitro"],
-[id="user-settings-cog-Nitro_Server_Boost"],
+[id="user-settings-cog-Discord_Nitro"],
+[id="user-settings-cog-Nitro-Server_Boost"],
 [id="user-settings-cog-Subscriptions"],
-[id="user-settings-cog-Payment-Flow-Modals"] {
+[id="user-settings-cog-Billing"] {
+	
 	display: none !important;
 }
 
