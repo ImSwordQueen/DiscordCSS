@@ -13,3 +13,46 @@
     --profile-role-pill-border-color: var(--interactive-normal) !important;
     --account-profile-popout-menu-hover: var(--brand-experiment-560) !important;
 }
+
+
+/* Made by Snare-Hawk#6331 */
+
+[mask="url(#svg-mask-avatar-decoration-profile-status-square-80)"] {
+    mask: url("#svg-mask-avatar-status-round-80") !important;
+}
+
+[mask="url(#svg-mask-avatar-decoration-profile-status-mobile-square-80)"] {
+    mask: url("#svg-mask-avatar-status-mobile-80") !important;
+}
+
+svg[class*="avatarDecorationHint"] {
+    left: 0px !important;
+    top: 0px !important;
+    height: 80px !important;
+    width: 80px !important;
+}
+
+[class^="userPopoutInner"][class^="wrapper"][class^="banner"],
+[class^="avatarDecoration"],
+[mask^="url(#svg-mask-avatar-decoration-status"],
+[class*="bannerSVGWrapper"] mask image {
+    display: none !important;
+}
+
+[mask^="url(#svg-mask-avatar-decoration-profile"] [class*="avatarHintInner"] {
+    font-size: 12px !important;
+}
+
+/* Remove avatar decorations */
+
+[class*="avatarDecoration"],
+
+/* Remove profile effects (jevil7452) */
+
+[class*=profileEffects],
+
+/* Profile Avatar Decorations Advertisement */
+
+[class*="animation"][class*="containerWrapper"] {
+	display: none !important; 
+}

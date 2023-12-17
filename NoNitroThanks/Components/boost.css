@@ -1,0 +1,25 @@
+
+[class^="premiumLabel"] {
+    color: var(--color-muted) !important;
+}
+
+/* Server boost from server menu */
+
+[class^="colorDefault"][class^="colorPremium"][class^="labelContainer"][class^="item"],
+[class^="boostingMenuItemHighlight"] {
+	display: none !important;
+}
+
+/* Removing stuff from the new boost page wohoo */
+
+[class*="content"][class*="lowerBodyContentWrapper"],
+[class*="content"][class*="middleBodyContentWrapper"],
+[class*="colorWhite"][class*="lookOutlined"][class*="button"][class*="guildBoostCtaSecondary"][class*="guildBoostCta"],
+[class*="guildBoostCta"],
+[class*="progressBarMarkerLocked"],
+[class^="tierCard"],
+[class^="topPerksCard"],
+[class^="guildBoostCtaSecondary"],
+[class^="guildBoostCtaSecondary"] {
+    display: none !important;
+}

@@ -1,0 +1,10 @@
+
+/* server banners */
+[class^="animatedBannerHoverLayer"],
+[class^="animatedContainer"],
+[class^="bannerImage"],
+[class^="content"] [style="height: 84px;"]
+
+{
+    display: none !important;
+}

@@ -14,6 +14,7 @@
 }
 
 /* Remove profile themes (https://github.com/Martinz64/remove-nitro) */
+
 [class*="profileColors"]{
     --profile-gradient-primary-color: var(--background-secondary-alt) !important;
     --profile-gradient-secondary-color: var(--background-secondary-alt) !important;
@@ -41,22 +42,17 @@
 [class^="customizationSection"][class*="disabled"], /* Per server profile customizations*/
 [class*="bannerNitroUpsell"], /* "Unlock Banner" in profile editor*/
 [class^="imageUploaderHint"], /* Remove gif option from profile pic upload option*/
-[class^="imagePickerContainer"] > [class^="optionBox"]:nth-child(2) /* Remove gif option from profile pic upload option*/ 
-{
-    display: none !important;
-}
+[class^="imagePickerContainer"] > [class^="optionBox"]:nth-child(2), /* Remove gif option from profile pic upload option*/ 
 
 /*Extra stuff (https://github.com/Martinz64/remove-nitro) */
 
 /*Settings*/
 [class^="premiumTab"], /*remove nitro tab*/
 [class^="premiumTab"] + [class^="item"], /*Server boost tab*/
-[class^="premiumTab"] + [class^="item"] + [class^="item"] /*server boost tab*/
-{
-	display: none !important;
-}
+[class^="premiumTab"] + [class^="item"] + [class^="item"], /*server boost tab*/
 
 /* Avatar decoration nitro promo in profiles (https://github.com/Martinz64/remove-nitro) */
+
 [class^="limitedFeatureBorder"] {
 	display: none !important;
 }
@@ -172,39 +168,30 @@
 [class^="header"]:nth-of-type(9),
 [class^="background"]
 [class^="codeRedemptionRedirect"],
-[class^="emptyStateSubtext"] {
-	display: none !important;
-}
+[class^="emptyStateSubtext"],
 
 /* Profile Customizazion */
 
 [class^="improvedUpsellSection"],
 [class^="improvedUpsellContainer"],
-[class^="profileThemeSectionPremiumBorder"][class^="customizationSection"] {
-	display: none !important;
-}
+[class^="profileThemeSectionPremiumBorder"][class^="customizationSection"],
 
 /* Animated Banner advertisement */
 [class^="upsellVisible-2"],
 [class^="upsellHidden-2"], 
 [class^="upsell"],
 [class^="bannerHidden"], 
-[class^="bannerVisible"] {
-    display: none !important;
-}
+[class^="bannerVisible"],
 
 /* Nitro popup in banners */
 
 [class^="premiumIconWrapper"],
-[class^="premiumIcon"] {
-    display: none !important;
-}
+[class^="premiumIcon"],
 
 /* Stream Page ads */
 
-[class^="upsellBanner"] {
-	display: none !important;
-}
+[class*="nitroUpsellContainer"],
+[class^="upsellBanner"],
 
 [Aria-label="Unlock with Discord Nitro"],
 [class^="selectorButtonPremiumRequired"] {
@@ -217,26 +204,19 @@
 [id="user-settings-cog-Discord_Nitro"],
 [id="user-settings-cog-Nitro-Server_Boost"],
 [id="user-settings-cog-Subscriptions"],
-[id="user-settings-cog-Billing"] {
-	
-	display: none !important;
-}
+[id="user-settings-cog-Billing"],
 
 /* Removing Nitro ads from activities */
 
 [class^="tierCtaContainer"],
 [class^="perksHeader"],
 [class^="upsellIcon"],
-[class^="perks"] {
-	display: none !important;
-}
+[class^="perks"],
 
 /* Removing some parts of ads in already removed pages to future proof this theme in case something changes.*/
 
 [class^="guildSubscriptionHeading"],
-[class^="guildsBlurb"][class^="text"][class^="defaultColor"] {
-	display: none !important;
-}
+[class^="guildsBlurb"][class^="text"][class^="defaultColor"],
 
 /* Removing fake themes section (It won't remove the themes section if you use fakenitro) */
 
@@ -256,12 +236,6 @@
 [class^="topPerksCard"],
 [class^="guildBoostCtaSecondary"],
 [class^="guildBoostCtaSecondary"] {
-    display: none !important;
-}
-
-/* Remove avatar decorations */
-
-[class*="avatarDecoration"] {
     display: none !important;
 }
 
@@ -293,20 +267,32 @@ svg[class*="avatarDecorationHint"] {
     font-size: 12px !important;
 }
 
-/* Remove profile effects (jevil7452) */
-[class*=profileEffects] {
-    display: none !important
-}
+/* Remove avatar decorations */
 
-/* Discord Shop Advertisement */
-.falloweenBackgroundImage__7e271.containerDefaultMargin_dcee92.container_d6bff4, /* This isn't a permanent thing */
+[class*="avatarDecoration"],
+
+/* Remove profile effects (jevil7452) */
+
+[class*=profileEffects],
 
 /* Profile Avatar Decorations Advertisement */
-[class*="animation"][class*="containerWrapper"] {
-	display: none !important;
-}
+
+[class*="animation"][class*="containerWrapper"],
+
+/* Shop Advertisement in Profile settings */
+
+[class*="containerDefaultMargin"][class*="container"],
+[class*="shopForAllWinterBackground"],
+
+/* More Stuff */
+
+[class*="channel"]:has([data-list-item-id$="___nitro"]), [class*="channel"]:has([data-list-item-id$="___shop"]), /*Nitro and shop homepage buttons*/
+.containerWrapper-1kh54c, /*Userpopout nitro upsell*/
+[class*="buttons"] > button[aria-haspopup="dialog"], /*Gift Button*/
+[class*="container"]:has([class*="ctaButton"]), /*Shop advertisement*/
 
 /* Removing some new ads that appeared recently thru A/B testing. */
+
 [class^="upsellImage"],
 [class^="perkRow"],
 [class^="tier0Container"],
