@@ -1,0 +1,28 @@
+/* Useless settings context menu stuff */
+
+#user-settings-cog-Family_Center,
+#user-settings-cog-Streamer-Mode,
+#user-settings-cog-Windows,
+#user-settings-cog-Language,
+#user-settings-cog-Keybinds,
+#user-settings-cog-Authorized_Apps,
+#user-settings-cog-Connections,
+#user-settings-cog-Notifications,
+#user-settings-cog-Activity_Privacy,
+#user-settings-cog-Text-Component,
+#user-settings-cog-Dismissible-Content-Options,
+#user-settings-cog-Hotspot-Options,
+#user-settings-cog-Hypesquad_Online,
+#user-settings-cog-Overlay,
+#user-settings-cog-Game_Activity,
+#user-settings-cog-Billing,
+#user-settings-cog-Library_Inventory,
+#user-settings-cog-Subscriptions,
+#user-settings-cog-Nitro-Server-Boost,
+#user-settings-cog-Discord_Nitro,
+#user-settings-cog-merchandise,
+#user-settings-cog-Privacy-Safety
+{
+	display: none !important;
+	}
+	

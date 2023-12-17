@@ -1,0 +1,22 @@
+/* Brand New Server stuff */
+
+[class*="cardWrapper"],
+
+/* App Discovery */
+
+[class*="cardWrapper"],
+
+/* Download App Modal */
+[class*="downloadApps"],
+
+/* Social */
+
+[class*="socialLink"],
+
+/* Server Discovery and Download APP button */
+
+[class*="scrollerBase"][class*="none"][class*="scroller"] > div[class*="listItem"] > [class*="listItemWrapper"] > [class*="wrapper"] {
+	display: none !important;
+	}
+	
+	

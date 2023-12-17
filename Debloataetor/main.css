@@ -1,20 +1,21 @@
-/* Soon */
-
-/* NoNitroThanks */
-
-@import url(https://imswordqueen.github.io/DiscordStuff/NoNitroThanksBeta/main.css);
+/**
+ * @name Debloataetor
+ * @description Removes some parts of the UI that most people won't use.
+ * @author Nobody
+ * @version 0.1
+ */
 
 /* Remove "Now Playing" Tab */
 
-@import url(https://imswordqueen.github.io/DiscordStuff/Debloataetor/noplay.css);
+@import url(https://ImSwordQueen.github.io/DiscordCSS/Debloataetor/Components/noplay.css);
 
 /* Brand New Server stuff */
 /* Download App Modal */
 /* Server Discovery and Download APP button */
 /* App Discovery */
 
-@import url(https://imswordqueen.github.io/DiscordStuff/Debloataetor/misc.css);
+@import url(https://ImSwordQueen.github.io/DiscordCSS/Debloataetor/Components/misc.css);
 
 /* Useless settings context menu stuff */
 
-@import url(https://imswordqueen.github.io/DiscordStuff/Debloataetor/consettings.css);
+@import url(https://ImSwordQueen.github.io/DiscordCSS/Debloataetor/Components/consettings.css);
