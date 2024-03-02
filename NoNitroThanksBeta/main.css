@@ -101,6 +101,42 @@
     display:block !important;
 }
 
+/* Revert back the locked emojis panel (Original code by riddim_glitch on BetterDiscord's discord) (Adapted to be future proof by me) */
+
+#emoji-picker-tab-panel [class*="emojiLockIconContainer"] {
+    display: none !important;
+  }
+[class*="categoryItemLockIconContainer"],
+[class*="upsellContainer"] {
+    display: none !important;
+  }
+
+  [class*="categorySectionNitroLocked"] {
+    background-color: var(--background-secondary);
+  
+    [class*="emojiItem"] {
+      filter: grayscale();  
+  }
+}
+
+#emoji-picker-tab-panel [class*="emojiLockIconContainer"] {
+  display: none;
+}
+
+#emoji-picker-tab-panel [class*="categoryItemLockIconContainer"],
+#emoji-picker-tab-panel [class*="upsellContainer"] {
+  display: none !important;
+}
+
+#emoji-picker-tab-panel [class*="categorySectionNitroLocked"] {
+  background-color: var(--background-secondary);
+}
+
+#emoji-picker-tab-panel [class*="categorySectionNitroLocked"] [class*="emojiItem"] {
+  filter: grayscale();
+}
+
+[class*="nitroTopDividerContainer"] {display: none;}
 
 /* Removes nitro promotion on custom stickers */
 [class^="emptyState"] [class^="header"] {
