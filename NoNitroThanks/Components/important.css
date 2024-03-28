@@ -204,7 +204,7 @@
 
 /* More Stuff */
 
-.containerWrapper-1kh54c, /*Userpopout nitro upsell*/
+.containerWrapper_b1818f, /*Userpopout nitro upsell*/
 
 /* Shop Advertisement in Profile settings */
 
@@ -230,7 +230,7 @@
 [class^="tryItOutSection"],
 [class^="contentPremium"],
 [class^="showBorder"][class^="customizationSection"],
-[class^="tryItOutSection-W9qeGH"][class^="featureBorder"][class^="premiumFeatureBorder"] {
+[class^="tryItOutSection"][class^="featureBorder"][class^="premiumFeatureBorder"] {
 	display: none !important;
 }
 

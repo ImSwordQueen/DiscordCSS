@@ -323,7 +323,7 @@ svg[class*="avatarDecorationHint"] {
 /* More Stuff */
 
 [class*="channel"]:has([data-list-item-id$="___nitro"]), [class*="channel"]:has([data-list-item-id$="___shop"]), /*Nitro and shop homepage buttons*/
-.containerWrapper-1kh54c, /*Userpopout nitro upsell*/
+.containerWrapper_b1818f, /*Userpopout nitro upsell*/
 [class*="buttons"] > button[aria-haspopup="dialog"], /*Gift Button*/
 [class*="container"]:has([class*="ctaButton"]), /*Shop advertisement*/
 
@@ -336,7 +336,7 @@ svg[class*="avatarDecorationHint"] {
 [class^="tryItOutSection"],
 [class^="contentPremium"],
 [class^="showBorder"][class^="customizationSection"],
-[class^="tryItOutSection-W9qeGH"][class^="featureBorder"][class^="premiumFeatureBorder"] {
+[class^="tryItOutSection"][class^="featureBorder"][class^="premiumFeatureBorder"] {
 	display: none !important;
 }
 
