@@ -323,7 +323,7 @@ svg[class*="avatarDecorationHint"] {
 /* More Stuff */
 
 [class*="channel"]:has([data-list-item-id$="___nitro"]), [class*="channel"]:has([data-list-item-id$="___shop"]), /*Nitro and shop homepage buttons*/
-.containerWrapper_b1818f, /*Userpopout nitro upsell*/
+.containerWrapper_e18107, /*Userpopout nitro upsell*/
 [class*="buttons"] > button[aria-haspopup="dialog"], /*Gift Button*/
 [class*="container"]:has([class*="ctaButton"]), /*Shop advertisement*/
 

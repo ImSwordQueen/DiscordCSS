@@ -1,33 +1,33 @@
 /* Change green colorables from the new green color to the old green color. */
 /* In particular, this fixes the join call buttons, but it may also fix other stuff around the app */
-.colorable__4f530.green_a14a3a {
+.colorable_ef18ee.green_ef18ee {
   background-color: var(--old-green);
 }
 
 /* Also fix the colorables when they're active or being hovered over, for example when hovering over the call buttons */
-.colorable__4f530.green_a14a3a.active_ff29dc, .colorable__4f530.green_a14a3a:hover {
+.colorable_ef18ee.green_ef18ee.active_ef18ee, .colorable_ef18ee.green_ef18ee:hover {
   background: var(--old-green);
 }
 
 /* Change red colorables from the new red color to the old red color. */
 /* In particular, this fixes the decline call buttons, but it may also fix other stuff around the app */
-.colorable__4f530.red__45e65 {
+.colorable_ef18ee.red_ef18ee {
   background-color: var(--old-red);
 }
 
 /* Also fix the colorables when they're active or being hovered over, for example when hovering over the decline call buttons */
-.colorable__4f530.red__45e65.active_ff29dc, .colorable__4f530.red__45e65:hover {
+.colorable_ef18ee.red_ef18ee.active_ef18ee, .colorable_ef18ee.red_ef18ee:hover {
   background: var(--old-red);
 }
 
 
 /* Verified check mark color */
-.verified_dd501b {
+.verified_db1980 {
   color: var(--old-green);
 }
 
 /* Fix the speaking ring around your avatar in the bottom left corner of your screen */
-.avatarSpeaking_f239de {
+.avatarSpeaking_cdc675 {
   box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #2f3136;
 }
 
@@ -47,10 +47,10 @@ div[class*="premiumLabel-"] > svg {
 }
 
 /* Revert new Nitro color by setting item */
-.premiumLabel__68f78 {
+.premiumLabel_ae3c77 {
   color: #7289da;
 }
-.premiumLabel__68f78.selected__18a0b {
+.premiumLabel_ae3c77.selected_ae3c77 {
   color: #fffbfc;
 }
 
@@ -89,7 +89,7 @@ div[class*="premiumLabel-"] > svg {
 
 
 /* Revert the command names and 'dismiss message' button to blurple */
-.commandName_fd97e7.clickable__09456, .ephemeralMessage__24192 .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX[role="button"] {
+.commandName_ec86aa.clickable_ec86aa, .ephemeralMessage_cabade .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX[role="button"] {
   color: var(--brand-experiment);
 }
 
@@ -103,10 +103,10 @@ div[class*="attachButtonPlay-"] {
   background-color: var(--old-green) !important;
 }
 /* Revert background of fake activity icon when customizing profile */
-.fakeActivityIcon__7d0ce.wumpus-otZFUO {
+.fakeActivityIcon_dfbe6b.wumpus-otZFUO {
     background-color: var(--brand-experiment);
 }
 /* Revert some buttons on login page back to old blurple */
-.marginBottom20__9fcf3.marginTop4_d4cd52.linkButton__8dff8.button__581d0.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F .contents-3ca1mk, .smallRegisterLink-1qEJhz.linkButton__8dff8.button__581d0.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F .contents-3ca1mk, .marginTop8__7da6c.linkButton__8dff8.button__581d0.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F .contents-3ca1mk, .colorStandard-21JIj7.size12-oc4dx4.subText__39b07.marginTop20__7e0ad .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
+.marginBottom20_f7730b.marginTop4_f7730b.linkButton_dc6abe.button_dd4f85.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F .contents-3ca1mk, .smallRegisterLink-1qEJhz.linkButton_dc6abe.button_dd4f85.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F .contents-3ca1mk, .marginTop8_f7730b.linkButton_dc6abe.button_dd4f85.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F .contents-3ca1mk, .colorStandard-21JIj7.size12-oc4dx4.subText_dc6abe.marginTop20_f7730b .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
     color: var(--brand-experiment);
 }
