@@ -162,8 +162,6 @@ div > [class^=effectGridItem]:has([class^=shopIcon]), /* Shop */
 
 /* Nitro Section */
 
-[class^="header"]:nth-of-type(9),
-[class^="background"]
 [class^="codeRedemptionRedirect"],
 [class^="emptyStateSubtext"],
 

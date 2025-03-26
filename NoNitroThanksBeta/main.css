@@ -216,8 +216,6 @@ div > [class^=effectGridItem]:has([class^=shopIcon]), /* Shop */
 
 /* remove nitro settings */
 
-[class^="header"]:nth-of-type(9),
-[class^="background"]
 [class^="codeRedemptionRedirect"],
 [class^="emptyStateSubtext"],
 
