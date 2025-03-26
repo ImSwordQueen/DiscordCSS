@@ -1,5 +1,6 @@
 /* Remove profile themes (https://github.com/Martinz64/remove-nitro) */
-[class*="profileColors-"]{
+[class*="custom-theme-background"], /*Temp Fix*/
+[class*="profileColors"]{
     --profile-gradient-primary-color: var(--background-secondary-alt) !important;
     --profile-gradient-secondary-color: var(--background-secondary-alt) !important;
     --profile-gradient-overlay-color: transparent  !important;

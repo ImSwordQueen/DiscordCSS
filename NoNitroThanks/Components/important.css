@@ -6,11 +6,18 @@
 [class^="characterCount"] [class*="upsell"], /* "Send longer Messages with Discord Nitro!" */
 [class^="emojiSection"] [class*="shinyButton"], /* "Get Nitro" button in Emoji/Sticker modal" */
 [class*="tryItOutSection"], /*try nitro banner section on profile editor*/
+[class*="bannerNitroUpsell"], /* "Unlock Banner" in profile editor*/
 [class^="customizationSection"] + [class^="upsellContainer"], /* Per server profile customizations*/
 [class^="customizationSection"][class*="disabled"], /* Per server profile customizations*/
-[class*="bannerNitroUpsell"], /* "Unlock Banner" in profile editor*/
-[class^="imageUploaderHint"], /* Remove gif option from profile pic upload option*/
-[class^="imagePickerContainer"] > [class^="optionBox"]:nth-child(2), /* Remove gif option from profile pic upload option*/ 
+[class^="imageSelectionSection"] > [class^="optionsList"] > li:nth-of-type(2), /* Remove gif option from profile pic upload option (New layout)*/ 
+[class^="contentTransitionWrap"] [class^="selectionGroup"]:has([class^="appIconSelection"]), /* Remove Discord Icons */
+div > [class^=decorationGridItem]:has([class^=iconBadge] > svg), /* Locked Decorations */
+div > [class^=decorationGridItem]:has([class^=shopIcon]), /* Shop */
+div > [class^=effectGridItem]:has([class^=lockBadge]), /* Locked Effects */
+div > [class^=effectGridItem]:has([class^=shopIcon]), /* Shop */
+
+[class^="imageUploaderHint"], /* Remove gif option from profile pic upload option*/ /* Remove when Discord removes the old Discord layout*/
+[class^="imagePickerContainer"] > [class^="optionBox"]:nth-child(2), /* Remove gif option from profile pic upload option*/ /* Remove when Discord removes the old Discord layout*/
 
 /*Extra stuff (https://github.com/Martinz64/remove-nitro) */
 
@@ -219,6 +226,14 @@
 [Aria-label="Unlock with Discord Nitro"],
 [class^="selectorButtonPremiumRequired"] {
 	display: none !important;
+}
+
+/* Remove gif option from profile pic upload option (New layout)*/ 
+[class^="imageSelectionSection"] > [class^="optionsList"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Removing some new ads that appeared recently thru A/B testing. */

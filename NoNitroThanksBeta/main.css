@@ -15,6 +15,7 @@
 
 /* Remove profile themes (https://github.com/Martinz64/remove-nitro) */
 
+[class*="custom-theme-background"], /*Temp Fix*/
 [class*="profileColors"]{
     --profile-gradient-primary-color: var(--background-secondary-alt) !important;
     --profile-gradient-secondary-color: var(--background-secondary-alt) !important;
@@ -29,6 +30,20 @@
     --profile-role-pill-border-color: var(--interactive-normal) !important;
     --account-profile-popout-menu-hover: var(--brand-experiment-560) !important;
 }
+
+/* Remove gif option from profile pic upload option (New layout)*/ 
+[class^="imageSelectionSection"] > [class^="optionsList"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+[class^="imageSelectionSection"] > [class^="optionsList"] > li:nth-of-type(2), /* Remove gif option from profile pic upload option (New layout)*/ 
+[class^="contentTransitionWrap"] [class^="selectionGroup"]:has([class^="appIconSelection"]), /* Remove Discord Icons */
+div > [class^=decorationGridItem]:has([class^=iconBadge] > svg), /* Locked Decorations */
+div > [class^=decorationGridItem]:has([class^=shopIcon]), /* Shop */
+div > [class^=effectGridItem]:has([class^=lockBadge]), /* Locked Effects */
+div > [class^=effectGridItem]:has([class^=shopIcon]), /* Shop */
 
 /* Remove Bloat (https://github.com/Martinz64/remove-nitro) */
 
