@@ -173,7 +173,8 @@ div > [class^=effectGridItem]:has([class^=shopIcon]), /* Shop */
 
 /* Removing stuff from settings */
 
-[class*="side"][aria-label="User Settings"] > div:nth-child(n+10):nth-child(-n+13), /* Removes Nitro, Subscriptions, Nitro Boost pages */
+[class*="side"][aria-label="User Settings"]:not(:has(.vc-settings)) > div:nth-child(n+10):nth-child(-n+13), /* Removes Nitro, Subscriptions, Nitro Boost pages */ /* (No Vencord) */
+[class*="side"][aria-label="User Settings"]:has(.vc-settings) > div:nth-child(n+15):nth-child(-n+13), /* Removes Nitro, Subscriptions, Nitro Boost pages */ /* (Vencord) */
 [id="user-settings-cog-Discord_Nitro"],
 [id="user-settings-cog-Nitro-Server_Boost"],
 [id="user-settings-cog-Subscriptions"],
