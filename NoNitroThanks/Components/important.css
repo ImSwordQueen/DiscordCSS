@@ -64,7 +64,7 @@ div > [class^=effectGridItem]:has([class^=shopIcon]), /* Shop */
 [class^="emptyTierWrapper"][class^="button"],
 
 /* Hide nitro icon on banners */
-[class^="bannerPremium"] !important,
+[class^="bannerPremium"],
 [class^="premiumIconWrapper"],
 [class^="privateChannels"] [href="/store"] + svg,
 [class^="item"] [class*="Promo"],
