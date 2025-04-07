@@ -44,8 +44,9 @@ svg[class*="avatarDecorationHint"] {
     font-size: 12px !important;
 }
 
-/* Remove avatar decorations */
+/* Remove avatar decorations & backgrounds */
 
+[class*="container"][class*="noFade"] {opacity: 0 !important}
 [class*="avatarDecoration"],
 
 /* Remove profile effects (jevil7452) */
