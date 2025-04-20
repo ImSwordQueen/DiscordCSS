@@ -76,7 +76,8 @@ div > [class^=effectGridItem]:has([class^=shopIcon]), /* Shop */
 
 /* flower icon next to server name */
 [class^="flowerStar"],
-[class^="flowerStarContainer"] {
+[class^="flowerStarContainer"],
+[class^="guildIconV2Container"] {
 	display: none !important;
 }
 
