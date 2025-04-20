@@ -56,8 +56,7 @@ div > [class^=effectGridItem]:has([class^=shopIcon]), /* Shop */
 [class^="customizationSection"] + [class^="upsellContainer"], /* Per server profile customizations*/
 [class^="customizationSection"][class*="disabled"], /* Per server profile customizations*/
 [class*="bannerNitroUpsell"], /* "Unlock Banner" in profile editor*/
-[class^="imageUploaderHint"], /* Remove gif option from profile pic upload option*/
-[class^="imagePickerContainer"] > [class^="optionBox"]:nth-child(2), /* Remove gif option from profile pic upload option*/ 
+[class^="imageSelectionSection"] > [class^="optionsList"] > li:nth-of-type(2), /* Remove gif option from profile pic upload option (New layout)*/ 
 
 /*Extra stuff (https://github.com/Martinz64/remove-nitro) */
 

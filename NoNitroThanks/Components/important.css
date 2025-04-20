@@ -16,9 +16,6 @@ div > [class^=decorationGridItem]:has([class^=shopIcon]), /* Shop */
 div > [class^=effectGridItem]:has([class^=lockBadge]), /* Locked Effects */
 div > [class^=effectGridItem]:has([class^=shopIcon]), /* Shop */
 
-[class^="imageUploaderHint"], /* Remove gif option from profile pic upload option*/ /* Remove when Discord removes the old Discord layout*/
-[class^="imagePickerContainer"] > [class^="optionBox"]:nth-child(2), /* Remove gif option from profile pic upload option*/ /* Remove when Discord removes the old Discord layout*/
-
 /*Extra stuff (https://github.com/Martinz64/remove-nitro) */
 
 /*Settings*/
