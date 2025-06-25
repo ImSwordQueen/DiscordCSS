@@ -340,7 +340,6 @@ svg[class*="avatarDecorationHint"] {
 [class*="channel"]:has([data-list-item-id$="___nitro"]), [class*="channel"]:has([data-list-item-id$="___shop"]), /*Nitro and shop homepage buttons*/
 .containerWrapper_e18107, /*Userpopout nitro upsell*/
 [class*="buttons"] > button[aria-haspopup="dialog"], /*Gift Button*/
-[class*="container"]:has([class*="ctaButton"]), /*Shop advertisement*/
 
 /* Removing some new ads that appeared recently thru A/B testing. */
 

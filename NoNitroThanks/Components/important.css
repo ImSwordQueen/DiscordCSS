@@ -39,7 +39,6 @@ div > [class^=effectGridItem]:has([class^=shopIcon]), /* Shop */
 /* Remove shop */ 
 [class*="premiumFeatureBannerBackground"],
 [class*="premiumFeature"],
-[class*="container"]:has([class*="ctaButton"]), /*Shop advertisement*/
 [class^="channel"] div [href="/shop"] {
     display: none !important
 }
