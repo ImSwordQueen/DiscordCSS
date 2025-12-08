@@ -65,6 +65,14 @@ div > [class^=effectGridItem]:has([class^=shopIcon]), /* Shop */
 [class^="premiumTab"] + [class^="item"], /*Server boost tab*/
 [class^="premiumTab"] + [class^="item"] + [class^="item"], /*server boost tab*/
 
+/*New Settings */
+[data-settings-sidebar-item*="nitro_panel"],
+[data-list-item-id*="nitro_sidebar_item"], /* Nitro Tab */
+[data-list-item-id*="premium_guild_subscriptions_sidebar_item"], /* Boosts */
+
+/* Button in attachments */
+[class*="expressiveWrapper_a22cb0"],
+
 /* Avatar decoration nitro promo in profiles (https://github.com/Martinz64/remove-nitro) */
 
 [class^="limitedFeatureBorder"] {
@@ -74,6 +82,7 @@ div > [class^=effectGridItem]:has([class^=shopIcon]), /* Shop */
 /* Server Related Stuff */
 
 /* flower icon next to server name */
+[class*="guildIconContainer"],
 [class^="flowerStar"],
 [class^="flowerStarContainer"],
 [class^="guildIconV2Container"] {
